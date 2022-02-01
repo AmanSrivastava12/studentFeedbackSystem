@@ -5,12 +5,16 @@ require('dbconfig.php'); ?>
 <html lang="en">
 
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-      <title>Student Feedback System</title>
+    <title>Student Feedback System</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -128,7 +132,7 @@ require('dbconfig.php'); ?>
                 <div class="col-lg-12">
 
                     <div class="col-sm-10" style="margin-top:20Spx;margin-bottom:80px">
-                        <h2>About Faculty feedback System</h2>
+                        <h2>About Student Feedback System</h2>
                         <p color="#741E35">
                             This is a Student Feedback System where students can give feedback about their courses and faculties.
                             This feedback system asks a bunch of questions so that proper feedback can be given regarding various topics.

@@ -1,0 +1,31 @@
+    <!-- Navigation -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header" align="center"><font color="#74471E">STUDENT FEEDBACK SYSTEM</font> </h1>        
+            </div>
+        </div>
+        <!-- Intro Content -->
+        <div class="row" style="margin-bottom:50px;margin-left:50px">
+                <p color="#741E35">Feedback is an essential part of effective learning.
+                   It helps students understand the subject being studied and gives them clear guidance on how to improve their learning.
+                   The feedback given must be educative and genuine in nature.
+                   <br>
+                   <br>
+                   This is a Student Feedback System where students can give feedback about their courses and faculties.
+                   This feedback system asks a bunch of questions so that proper feedback can be given regarding various topics.
+                   This project takes feedback from students and provides them to the required faculties so that they know whether they are doing well or they need to do better.
+                   Students can also give feedback on the courses undertaken so that the courses can be modified according to the given feedbacks.
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   This project on Student Feedback is made by Sanchit Saxena and Aman Srivastava where Frontend and Backend is programmed by Aman Srivastava and the database is designed by Sanchit Saxena.
+                </p>
+            </div>
+        </div>
+
+     
