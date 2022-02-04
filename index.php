@@ -69,24 +69,21 @@ require('dbconfig.php'); ?>
         </div>
         <!-- /.container -->
     </nav>
-
-    <?php
-    @$info = $_GET['info'];
-    if ($info != "") {
-
-        if ($info == "about") {
-            include('about.php');
-        } else if ($info == "contact") {
-            include('contact.php');
-        } else if ($info == "login") {
-            include('login.php');
-        } else if ($info == "faculty_login") {
-            include('faculty_login.php');
-        } else if ($info == "registration") {
-            include('registration.php');
-        }
-    } else {
-    ?>
+    <?php 
+					@$info=$_GET['info'];
+					if( !empty($info) && in_array( $info, ['about', 'contact', 'login','faculty_login', 'registration'] ) )
+					{
+                        if($info === 'login') {
+                            include('student/'.$info.'.php');
+                        } else if($info === 'faculty_login') {
+                            include('faculty/'.$info.'.php');
+                        } else {
+                            include($info.'.php');   
+                        }
+					}
+					else
+					{
+				?>
         <!-- slider start -->
         <header id="myCarousel" class="carousel slide">
             <!-- Indicators -->
