@@ -113,7 +113,7 @@ $err="<font color='blue'><h3 align='center'>Registration successfull !!<h3></fon
 					<select style="width:100px;float:left" name="yy" class="form-control" required>
 					<option value="">Year</option>
 					<?php 
-					for($i=1950;$i<=2016;$i++)
+					for($i=1950;$i<=2022;$i++)
 					{
 					echo "<option>".$i."</option>";
 					}					
