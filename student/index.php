@@ -71,10 +71,14 @@ $users=mysqli_fetch_assoc($sql);
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 		  <?php 
 		@$page=  $_GET['page'];
-		  if($page!="" && ($page=="update_password" || $page=="update_profile" || $page=="feedback"))
+		  if($page!="" && ($page=="update_password" || $page=="update_profile"))
 		  {
 				include($page.'.php');
-          }
+      }
+      else if($page=="feedback")
+      {
+        include('give_feedback.php');
+      }
 		  else
 		  {
 		  ?>
